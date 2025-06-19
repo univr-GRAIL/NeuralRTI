@@ -1,4 +1,4 @@
-#NeuralRTI Implementation
+# NeuralRTI Implementation  
 This is a PyTorch implementation of NeuralRTI. 
 
 ## Getting Started
