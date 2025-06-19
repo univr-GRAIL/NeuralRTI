@@ -1,0 +1,11 @@
+comp_coeff = 9  # latent features, number of code
+batch_size = 64  # batch size
+num_workers = 8  # number of workers for concurrent data loading
+max_epochs = 1  # number of epochs
+bit_feat = 8  # parameters used for feature encoding.  use default value
+alpha = 0.3  # alpha, weight,  values for distillation loss function.
+data_path = 'test_dataset/Dome' # MLIC input images
+ld_file = data_path + '/dirs.lp'  # light direction path
+mask = False  # change this values to true if you want to train relight for masked region. Place the mask image, named mask.png, inside data_path, MLIC image folder
+src_img_type = "jpg"  # image extension
+output_path =  'outputs'  # the location to store encoder, decoder, json file and plane images
